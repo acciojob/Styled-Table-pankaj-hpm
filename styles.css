@@ -3,6 +3,14 @@ table{
 	
 
 thead{
-	background-color:orange;
-	color:blue
+	background-color:yellow;
+	color:red;
 }
+	tbody tr td:nth-child(2n+2){
+					background-color:yellow;
+	}
+	tbody tr td:nth-child(2n+1){
+					background-color:orange;
+	}
+	
+	
